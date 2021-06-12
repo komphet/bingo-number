@@ -51,7 +51,7 @@ function App() {
       const ttsPopup = window.open(link,'popUpWindow','height=400,width=300,left=0,top=0,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');
       setTimeout(()=>{
         console.log("Closed");
-        // ttsPopup.close();
+        ttsPopup.close();
       },countTime-2000)
       setQ(null);
     }
